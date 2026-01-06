@@ -34,7 +34,7 @@ ffmpeg -re -i "yourfile.mkv" -localaddr 192.168.2.5 -f mpegts -vcodec libx264 -a
 
 **both sender and transmitter must be on the same network, multicast don't pass unconfigured routers!**
 
-- in the localaddr param replace 192.168.2.5 with your interface ip
+in the localaddr param replace 192.168.2.5 with your interface ip
 - in your 4400 browser interface / Display Actions /Video multicast insert
   - Multicast Group IP Address: 239.1.2.3
   - port Number: 4567
@@ -42,7 +42,9 @@ ffmpeg -re -i "yourfile.mkv" -localaddr 192.168.2.5 -f mpegts -vcodec libx264 -a
 - the hdmi attached tv should play video e audio
 - you can test from another computer with the cmd command
 
-ffplay udp://239.1.2.3:4567
+ffplay -localaddr 192.168.2.6 udp://239.1.2.3:4567
+
+in the localaddr param replace 192.168.2.5 with your interface ip
   
 ### Auto play at 4400 boot
 
