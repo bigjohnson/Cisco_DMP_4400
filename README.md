@@ -36,6 +36,7 @@ ffmpeg -re -i "yourfile.mkv" -localaddr 192.168.2.5 -f mpegts -vcodec libx264 -a
 - in your 4400 browser interface / Display Actions /Video multicast insert
   - Multicast Group IP Address: 239.1.2.3
   - port Number: 4567
+  - press the **Start** button
 - the hdmi attached tv should play video e audio
   
 ### Auto play at 4400 boot
