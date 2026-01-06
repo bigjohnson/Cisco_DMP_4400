@@ -32,6 +32,8 @@ If you don't have the admin password you can factory reset the 4400
 
 ffmpeg -re -i "yourfile.mkv" -localaddr 192.168.2.5 -f mpegts -vcodec libx264 -acodec aac "udp://239.1.2.3:4567?ttl=8"
 
+**both sender and transmitter must be on the same network, multicast don't pass unconfigured routers!**
+
 - in the localaddr param replace 192.168.2.5 with your interface ip
 - in your 4400 browser interface / Display Actions /Video multicast insert
   - Multicast Group IP Address: 239.1.2.3
