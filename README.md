@@ -27,5 +27,14 @@ If you don't have the admin password you can factory reset the 4400
 
 ### Play rtsp multicast file
 
-- Start the multicast file send
-ffmpeg -re -i "C:\Users\alberto\Videos\2025-11-13 18-13-25.mkv" -localaddr 192.168.2.5 -f mpegts -vcodec libx264 -acodec aac "udp://239.1.2.3:4567?ttl=8"
+- inslall ffmpeg
+- Start the multicast file send in cmd
+
+ffmpeg -re -i "yourfile.mkv" -localaddr 192.168.2.5 -f mpegts -vcodec libx264 -acodec aac "udp://239.1.2.3:4567?ttl=8"
+
+- in the localaddr param replace 192.168.2.5 with your interface ip
+- in your 4400 browser interface / Display Actions /Video multicast insert
+  - Multicast Group IP Address: 239.1.2.3
+  - port Number: 4567
+- the hdmi attached tv should play video e audio
+  
