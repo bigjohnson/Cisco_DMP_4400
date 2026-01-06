@@ -38,7 +38,7 @@ ffmpeg -re -i "yourfile.mkv" -localaddr 192.168.2.5 -f mpegts -vcodec libx264 -a
   - port Number: 4567
 - the hdmi attached tv should play video e audio
   
-### Other options
+### Auto play at 4400 boot
 
 - you can show a html page on 4400 boot
 - in Basic / Browser insert the page
