@@ -38,3 +38,14 @@ ffmpeg -re -i "yourfile.mkv" -localaddr 192.168.2.5 -f mpegts -vcodec libx264 -a
   - port Number: 4567
 - the hdmi attached tv should play video e audio
   
+### Other options
+
+- you can show a html page on 4400 boot
+- in Basic / Browser insert the page
+  - http://<ip_address>/<path_and_filename> from a webserver
+  - file:///tmp/ftproot/usb_1/<path_and_filename> from internal storage
+  - file:///tmp/ftproot/usb_2/<path_and_filename> from usb attached disk
+- you can play a video on 4400 boot
+  - in Basic / Media
+    - ~~udp:<ip_address_of_multicast_server>/<port_number>~~
+  
