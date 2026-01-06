@@ -53,6 +53,8 @@ ffmpeg -re -i "yourfile.mkv" -localaddr 192.168.2.5 -f mpegts -vcodec libx264 -a
 
 files must be a MPEG-TS
 
+![mediainfo](img/mediainfo.png)
+
 better quality is with mpeg4 / AVC / h264
 
-![Cisco DMP 4400 image](img/4400.png)
+![encodings](img/4400.png)
