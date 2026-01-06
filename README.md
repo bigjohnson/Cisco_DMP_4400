@@ -4,7 +4,7 @@
 
 ## How configure a Cisco 4400 Digital Media Player to show remote multicast rtsp video flows.
 
-## My 4400 Firmware Release Version is 5.2
+### My 4400 Firmware Release Version is 5.2
 
 ### Factory reset
 
