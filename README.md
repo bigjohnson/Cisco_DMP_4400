@@ -49,6 +49,10 @@ ffmpeg -re -i "yourfile.mkv" -localaddr 192.168.2.5 -f mpegts -vcodec libx264 -a
   - in Basic / Media
     - ~~udp:<ip_address_of_multicast_server>/<port_number>~~ tested but don't work
   
-### Media file encoding
+### Local media file encoding
+
+files must be a MPEG-TS
+
+better quality is with mpeg4 / AVC / h264
 
 ![Cisco DMP 4400 image](img/4400.png)
