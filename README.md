@@ -9,15 +9,8 @@
 ### Factory reset
 
 - If you don't have the admin password you can factory reset the 4400
-
 - connecting it to a dhcp enabled neteork
-
 - powering up it
-
 - waiting boot and press the back reset button until the system reboot
-
 - connect the 4400 to a hdmi video and read the dhcp asigned tcp/ip address
-
 - connect to it in https
-
-
