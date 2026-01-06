@@ -54,7 +54,7 @@ ffmpeg -re -i "yourfile.mkv" -localaddr 192.168.2.5 -f mpegts -vcodec libx264 -a
 
 - files must be a MPEG-TS
 
-- max framerate is 30 fps, bigger framerate lost sync with audio and jump the video
+- max framerate is 29.9 fps, bigger framerate lost sync with audio and jump the video
 
 ![mediainfo](img/mediainfo.png)
 
