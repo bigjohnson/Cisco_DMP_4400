@@ -44,7 +44,7 @@ in the localaddr param replace 192.168.2.5 with your interface ip
 
 ffplay -localaddr 192.168.2.6 udp://239.1.2.3:4567
 
-in the localaddr param replace 192.168.2.5 with your interface ip
+in the localaddr param replace 192.168.2.6 with your interface ip
   
 ### Auto play at 4400 boot
 
