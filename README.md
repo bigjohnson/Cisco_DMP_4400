@@ -47,5 +47,5 @@ ffmpeg -re -i "yourfile.mkv" -localaddr 192.168.2.5 -f mpegts -vcodec libx264 -a
   - file:///tmp/ftproot/usb_2/<path_and_filename> from usb attached disk
 - you can play a video on 4400 boot
   - in Basic / Media
-    - ~~udp:<ip_address_of_multicast_server>/<port_number>~~
+    - ~~udp:<ip_address_of_multicast_server>/<port_number>~~ tested but don't work
   
